@@ -5,6 +5,6 @@ Uses an Arduino Uno as well as an HC-05 bluetooth module.
 Had a manual switch to reverse the direction of motion however, that has since been removed and now contains a self implemented H-bridge.
 The gears and mechanical side of the car were all hand-built including the steering mechanism. 
 
-Bluetooth and application implementation are fully functioning. It uses the analog pins on the Arduino Uno board so the car can move forwards and backwards at varying speed. All of which are controlled by the HC-05 and Ardroid phone application.
+Bluetooth and application implementation are fully functioning. It uses the analog pins on the Arduino Uno board so the car can move forwards and backwards at varying speeds. All of which are controlled by the HC-05 and Ardroid phone application.
 
 Currently working on being able to crontrol the steering mechanism using bluetooth.
