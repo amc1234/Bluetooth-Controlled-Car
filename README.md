@@ -7,6 +7,4 @@ The gears and mechanical side of the car were all hand-built including the steer
 
 Bluetooth and application implementation are fully functioning. It uses the analog pins on the Arduino Uno board so the car can move forwards and backwards at varying speeds. All of which are controlled by the HC-05 and Ardroid phone application.
 
-Currently working on being able to crontrol the steering mechanism using bluetooth.
-
 Phone application and template code by: Anurag Goel
