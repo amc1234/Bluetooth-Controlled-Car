@@ -135,7 +135,7 @@ void set_digitalwrite(int pin_num, int pin_value)
   case 5:
     pinMode(5, OUTPUT);
     digitalWrite(5, HIGH); 
-    analogWrite(5, 255);   //Spins the motor   
+    analogWrite(5, 255);   //Spins the motor in one direction
     break;
   case 4:
     pinMode(4, OUTPUT);
@@ -145,13 +145,13 @@ void set_digitalwrite(int pin_num, int pin_value)
   case 3:
     pinMode(3, OUTPUT);
     digitalWrite(3, HIGH);         
-    analogWrite(3, 255);   //Spins the motor
+    analogWrite(3, 255);   //Spins the motor in the opposite direction
     break;
   case 2:
     pinMode(2, OUTPUT);
     digitalWrite(2, pin_value); 
     // add your code here       
-    break;      
+    break;
   
   } 
 }
